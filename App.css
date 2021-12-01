@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-image: url("http://openweathermap.org/img/wn/10d@2x.png");
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.app{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  
+  justify-content: center;
+  
+}
+.app_container{
+  padding: 15px;
+  margin-top: 150px;
+  width: 350px;
+  height: 470px;
+  margin-left: -180px;
+  box-shadow: 0 0 5px black;
+  background-image: url("http://openweathermap.org/img/wn/10d@2x.png");
+  /*background-repeat: no-repeat;
+  background-size: 300px 100px;*/
+}
+.font_size{
+  font-size: 40px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
